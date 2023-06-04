@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "storybook dev -p 6006",
-    "storybook:build": "storybook build"
+    "storybook:build": "storybook build",
+    "storycap": "storycap --serverCmd \"npx http-server storybook-static -p 6006\" http://localhost:6006"
   },
   "keywords": [],
   "author": "",
