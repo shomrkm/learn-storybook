@@ -134,3 +134,4 @@ dist
 
 # storybook
 storybook-static/
+.reg
