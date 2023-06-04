@@ -23,6 +23,10 @@
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "reg-keygen-git-hash-plugin": "^0.12.1",
+    "reg-notify-github-plugin": "^0.12.1",
+    "reg-publish-s3-plugin": "^0.12.1",
+    "reg-suit": "^0.12.1",
     "storybook": "^7.0.18",
     "storycap": "^4.1.1"
   }
