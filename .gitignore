@@ -135,3 +135,8 @@ dist
 # storybook
 storybook-static/
 .reg
+
+# playwright
+/test-results/
+/playwright-report/
+/playwright/.cache/
