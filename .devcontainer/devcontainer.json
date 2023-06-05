@@ -16,6 +16,6 @@
     },
   },
   "service": "app",
-  "workspaceFolder": "/usr/src/app",
+  "workspaceFolder": "/app",
   "shutdownAction": "stopCompose"
 }
