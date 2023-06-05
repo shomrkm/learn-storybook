@@ -8,7 +8,8 @@
     "storybook:build": "storybook build",
     "vrt:snapshot": "storycap --serverCmd \"npx http-server storybook-static -p 6006\" http://localhost:6006",
     "vrt:run": "reg-suit run",
-    "test:e2e": "npx playwright test"
+    "test:e2e": "npx playwright test",
+    "test:e2e:report": "npx playwright show-report"
   },
   "keywords": [],
   "author": "",
