@@ -1,15 +1,14 @@
-FROM node:20.2-alpine
+FROM node:20.2-alpine as deps
 
-ENV PROJECT_ROOTDIR /usr/src/app
+ENV PROJECT_ROOTDIR /app
 
 WORKDIR $PROJECT_ROOTDIR
 
 COPY package.json package-lock.json $PROJECT_ROOTDIR
 
-RUN npm install
+RUN npm ci
 
 COPY . $PROJECT_ROOTDIR
 
 EXPOSE 3000
 
-# CMD ["npm", "start"]
